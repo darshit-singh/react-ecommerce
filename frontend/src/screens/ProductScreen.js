@@ -9,8 +9,8 @@ const ProductScreen = (props) => {
     const product = products.find(item => item._id === match.params.id)
     return (
         <>
-            <Link className='btn btn-light my-3' to='/'>
-                Go Back
+            <Link to='/'>
+                <Button variant='outline-primary' className='my-3'>Go Back</Button>
             </Link>
             <Row>
                 <Col md={6}>
