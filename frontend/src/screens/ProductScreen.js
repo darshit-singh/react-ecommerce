@@ -56,7 +56,7 @@ const ProductScreen = (props) => {
                                 </Row>
                             </ListGroupItem>
                             <ListGroupItem className='d-grid gap-2'>
-                                <Button variant='primary' type='button' disabled={product.countInStock == 0}>
+                                <Button variant='primary' type='button' disabled={product.countInStock === 0}>
                                     Add to Cart
                                 </Button>
                                 <Button variant='outline-primary' type='button'>
