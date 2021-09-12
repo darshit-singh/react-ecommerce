@@ -13,7 +13,7 @@ const ProductScreen = (props) => {
             setProduct(res.data)
         }
         fetchProduct();
-    }, [])
+    }, [match])
     return (
         <>
             <Link to='/'>
